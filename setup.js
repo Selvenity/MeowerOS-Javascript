@@ -37,7 +37,7 @@ win.content(`
     <p style="margin-left:64px;">
         <table style="font-size:11px;color:#000;">
             <tr><td rowspan="4" style="width:72px;"><img class="userimg" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fuser.bmp?1522560745448"/></td></tr>
-            <tr><td>Type a user name (for example, John)</td></tr>
+            <tr><td>Type a user name (for example, Meowy)</td></tr>
             <tr><td><input type="text" class="username" style="width:180px;"/></td></tr>
             <tr><td>&nbsp;</td></tr>
         </table>
@@ -46,14 +46,14 @@ win.content(`
     <p style="margin-left:16px;">
         <table style="font-size:11px;color:#000;">
             <tr>
-                <td><img class="userimgopt selected" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fuser.bmp?1522560745448"/></td>
+                <td><img class="userimgopt selected" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile8.bmp?1522560745448"/></td>
+                <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fuser.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile2.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile3.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile4.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile5.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile6.bmp?1522560745448"/></td>
                 <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile7.bmp?1522560745448"/></td>
-                <td><img class="userimgopt" src="https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fusertile8.bmp?1522560745448"/></td>
            </tr>
         </table>
     </p>
