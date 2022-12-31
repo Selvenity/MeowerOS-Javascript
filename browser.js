@@ -22,7 +22,7 @@ function iframeContentLoaded(guid) {
 $(window).on('xpboot', function() {
   xp.applications.add('browser', (args) => {
       var guid = generate_guid();
-      var el = $.parseHTML(`<window title="Internet ExploDer" width="640" height="480">
+      var el = $.parseHTML(`<window title="Meower Browser 1.0" width="640" height="480">
         <style>
     .load-overlay {
       position: absolute;
@@ -92,5 +92,5 @@ $(window).on('xpboot', function() {
     $(el).updateWindow();
   });
   
-  xp.startmenu.add('browser', 'Web Browser', 'https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fbrowser.png?1520137537939');
+  xp.startmenu.add('browser', 'Meower Explorer', 'https://cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fbrowser.png?1520137537939');
 });
