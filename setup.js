@@ -1,7 +1,7 @@
 var win = new Window({
     width: 594,
     height: 434,
-    title: 'Welcome to RebornXP',
+    title: 'Welcome to MeowerOS',
     canClose: false,
     canResize: false,
     canMinimize: false,
@@ -27,8 +27,8 @@ win.content(`
 }
 </style>
 <div style="margin-left:32px;">
-    <h1 style="font-weight:normal;">Thanks for choosing RebornXP!</h1>
-    <h2 style="font-weight:normal;">Choose a user name and picture</h2>
+    <h1 style="font-weight:normal;">Thanks for choosing MeowerOS!</h1>
+    <h2 style="font-weight:normal;">Choose a user name and a picture.</h2>
     <p>
         Your user name and picture represent your user account. The account you create here is a computer<br>
         administrator account.
@@ -82,8 +82,9 @@ win.el.find('.next').on('click', function() {
         xp.wallpaper.href = 'https://rebornxp.js.org/XP.jpg';
         win.content(`
 <div style="margin-left:32px;">
-    <h1 style="font-weight:normal;">Please wait while we set up your computer.</h1>
-    <h2 style="font-weight:normal;">Your computer might restart several times during this process.</h2>
+    <h1 style="font-weight:normal;">Please wait while we set up MeowerOS in your web browser.</h1>
+    <h2 style="font-weight:normal;">MeowerOS might restart several times during this process.</h2>
+    <h2 style="font-weight:normal;">Do not worry, it will not proceed to refresh the page.</h2>
 </div>`);
         setTimeout(() => {
             requiredDirectories = [
