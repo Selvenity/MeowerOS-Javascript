@@ -1,7 +1,7 @@
 $(window).on('xpboot', () => {
   xp.applications.add('notepad', (args) => {
     var guid = generate_guid();
-    var el = $.parseHTML(`<window title="Notepad" width="480" height="360">
+    var el = $.parseHTML(`<window title="Meower Notes" width="480" height="360">
   <textarea style="width: 100%; height: calc(100% - 19px); resize: none" id="notepad_` + guid + `" filename=""></textarea>
 </window>`);
     document.body.appendChild(el[0]);
@@ -52,5 +52,5 @@ $(window).on('xpboot', () => {
       });
     }
   });
-  xp.startmenu.add('notepad', 'Notepad', '//cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fnotepad.png?1521328884236');
+  xp.startmenu.add('notepad', 'Meower Notes', '//cdn.glitch.com/01d2e04f-e49d-4304-aa9e-55b9849b4cce%2Fnotepad.png?1521328884236');
 });
