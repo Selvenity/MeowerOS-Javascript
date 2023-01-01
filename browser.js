@@ -44,10 +44,10 @@ $(window).on('xpboot', function() {
     @keyframes lds-dual-ring{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes lds-dual-ring{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.lds-dual-ring{position:relative}.lds-dual-ring div{position:absolute;width:40px;height:40px;top:80px;left:80px;border-radius:50%;border:4px solid #000;border-color:#51CACC transparent;-webkit-animation:lds-dual-ring 1s linear infinite;animation:lds-dual-ring 1s linear infinite}.lds-dual-ring{width:200px!important;height:200px!important;-webkit-transform:translate(-100px,-100px) scale(1) translate(100px,100px);transform:translate(-100px,-100px) scale(1) translate(100px,100px)}
         </style>
         <div id="webBrowserContent">
-          <button align="left" id="videoButton" onclick="browserGo('www.bing.com/videos', '` + guid + `')" title="Videos">Videos</button>
-          <button align="left" id="imageButton" onclick="browserGo('www.bing.com/images', '` + guid + `')" title="Images">Images</button>
-          <button align="left" id="homeButton" onclick="browserGo('www.bing.com', '` + guid + `')" title="Home">Home</button>
-          <input type="text" id="url_` + guid + `" value="` + location.protocol + `//www.bing.com/" style="width:calc(100% - 314px);"/>
+          <button align="left" id="videoButton" onclick="browserGo('app.meower.org', '` + guid + `')" title="Videos">Videos</button>
+          <button align="left" id="imageButton" onclick="browserGo('app.meower.org', '` + guid + `')" title="Images">Images</button>
+          <button align="left" id="homeButton" onclick="browserGo('app.meower.org', '` + guid + `')" title="Home">Home</button>
+          <input type="text" id="url_` + guid + `" value="` + location.protocol + `//app.meower.org/" style="width:calc(100% - 314px);"/>
           <button id="goButton" onclick="browserGo(undefined, '` + guid + `')" title="Go">Go</button><br>
           <div style="width:calc(100% - 5px);height:calc(100% - 27px);">
             <div style="display: none" id="loading_` + guid + `" title="Loading..." class="load-overlay">
@@ -55,7 +55,7 @@ $(window).on('xpboot', function() {
                 <div class="lds-css ng-scope"><div style="width:100%;height:100%" class="lds-dual-ring"><div></div></div></div>
               </div>
             </div>
-            <iframe style="width:calc(100% - 5px);height:calc(100% - 29px);position:absolute;top:24;left:0;" onload="iframeContentLoaded('` + guid + `')" onunload="iframeContentUnload('` + guid + `')" src="` + location.protocol + `//www.bing.com/" id="webPage_` + guid + `"></iframe>
+            <iframe style="width:calc(100% - 5px);height:calc(100% - 29px);position:absolute;top:24;left:0;" onload="iframeContentLoaded('` + guid + `')" onunload="iframeContentUnload('` + guid + `')" src="` + location.protocol + `//app.meower.org/" id="webPage_` + guid + `"></iframe>
           </div>
         </div>
       </window>`);
