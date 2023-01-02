@@ -45,8 +45,8 @@ $(window).on('xpboot', function() {
         </style>
         <div id="webBrowserContent">
           <button align="left" id="imageButton" onclick="browserGo('app.meower.org', '` + guid + `')" title="Meower">Meower</button>
-          <button align="left" id="homeButton" onclick="browserGo('duckduckgo.com', '` + guid + `')" title="Home">Home</button>
-          <input type="text" id="url_` + guid + `" value="` + location.protocol + `//duckduckgo.com/" style="width:calc(100% - 314px);"/>
+          <button align="left" id="homeButton" onclick="browserGo('www.bing.com', '` + guid + `')" title="Home">Home</button>
+          <input type="text" id="url_` + guid + `" value="` + location.protocol + `//www.bing.com/" style="width:calc(100% - 314px);"/>
           <button id="goButton" onclick="browserGo(undefined, '` + guid + `')" title="Go">Go</button><br>
           <div style="width:calc(100% - 5px);height:calc(100% - 27px);">
             <div style="display: none" id="loading_` + guid + `" title="Loading..." class="load-overlay">
@@ -54,7 +54,7 @@ $(window).on('xpboot', function() {
                 <div class="lds-css ng-scope"><div style="width:100%;height:100%" class="lds-dual-ring"><div></div></div></div>
               </div>
             </div>
-            <iframe style="width:calc(100% - 5px);height:calc(100% - 29px);position:absolute;top:24;left:0;" onload="iframeContentLoaded('` + guid + `')" onunload="iframeContentUnload('` + guid + `')" src="` + location.protocol + `//duckduckgo.com/" id="webPage_` + guid + `"></iframe>
+            <iframe style="width:calc(100% - 5px);height:calc(100% - 29px);position:absolute;top:24;left:0;" onload="iframeContentLoaded('` + guid + `')" onunload="iframeContentUnload('` + guid + `')" src="` + location.protocol + `//www.bing.com/" id="webPage_` + guid + `"></iframe>
           </div>
         </div>
       </window>`);
